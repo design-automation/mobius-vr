@@ -9,12 +9,11 @@
   <body>
     <a-scene>
         <a-assets>
-            <a-asset-item id="test" src="https://raw.githubusercontent.com/design-automation/mobius-parametric-modeller-dev-0-6/master/src/assets/testing/test_aframe/Podium_tower_options_photo.gltf"></a-asset-item>
-            <img id="sky" src="https://raw.githubusercontent.com/design-automation/mobius-parametric-modeller-dev-0-6/master/src/assets/testing/test_aframe/Street View 360_1.jpg" crossorigin="anonymous">
+            <a-asset-item id="test" src="https://raw.githubusercontent.com/design-automation/mobius-vr/master/assets/Podium_tower_options_photo.gltf"></a-asset-item>
+            <img id="sky" src="https://raw.githubusercontent.com/design-automation/mobius-vr/master/assets/Street View 360_1.jpg" crossorigin="anonymous">
         </a-assets>
-        <a-sky src="#sky"></a-sky>
-        <!-- wasd-controls='acceleration: 500%; fly: false' -->
-        <a-entity rotation="270 140 0" position="40 -2 0" gltf-model="#test"></a-entity>
+        <a-sky rotation="0 90 0" src="#sky"></a-sky>
+        <a-entity rotation="270 228 0" position="0 -1.2 0" scale="1.0 1.0 1.0" gltf-model="#test"></a-entity>
     </a-scene>
   </body>
 </html>
