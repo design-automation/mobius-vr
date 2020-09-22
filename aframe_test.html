@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame test</title>
+    <meta name="description" content="A-Frame _-_ test">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="test" src="https://raw.githubusercontent.com/design-automation/mobius-parametric-modeller-dev/88419c67cd2a84adcd086a4a87e5f16f163aa529/src/assets/testing/test_aframe/aframe_test_model.gltf"></a-asset-item>
+            <img id="sky" src="https://raw.githubusercontent.com/design-automation/mobius-parametric-modeller-dev/88419c67cd2a84adcd086a4a87e5f16f163aa529/src/assets/testing/test_aframe/aframe_test_background.png" crossorigin="anonymous">
+        </a-assets>
+        <a-sky src="#sky"></a-sky>
+        <!-- wasd-controls='acceleration: 500%; fly: false' -->
+        <a-entity rotation="270 0 0" gltf-model="#test"></a-entity>
+    </a-scene>
+  </body>
+</html>
