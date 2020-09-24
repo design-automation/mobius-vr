@@ -144,8 +144,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0.5,
         "roughnessFactor": 0.5
-      },
-      "doubleSided": true
+      }
     },
     {
       "pbrMetallicRoughness": {
@@ -157,8 +156,7 @@
         ],
         "metallicFactor": 0.5,
         "roughnessFactor": 0.5
-      },
-      "doubleSided": true
+      }
     },
     {
       "pbrMetallicRoughness": {
@@ -170,16 +168,14 @@
         ],
         "metallicFactor": 0.5,
         "roughnessFactor": 0.5
-      },
-      "doubleSided": true
+      }
     },
     {
       "pbrMetallicRoughness": {
         "metallicFactor": 0.5,
         "roughnessFactor": 0.5,
         "backFaceCulling": false
-      },
-      "doubleSided": true
+      }
     }
   ],
   "meshes": [
